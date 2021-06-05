@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--oc-grape-1);
+}
